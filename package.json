@@ -1,0 +1,15 @@
+{
+  "name": "chatbot-nodejs",
+  "version": "1.0.0",
+  "description": "O projeto vai desenvolver chatbot aplicando conceitos de integração. [^1]",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "node-telegram-bot-api": "^0.54.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
