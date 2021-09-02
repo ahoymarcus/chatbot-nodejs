@@ -15,8 +15,8 @@ Dependências:
 
 <br />
 
-###
-![]()
+### Imagem inicial do projeto ChatbotFit integrado com o Telegram:
+![imagem do projeto chatbot-nodejs-icon](./public/images/chatbot-nodejs-icon.png)
 
 
 <br />
