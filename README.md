@@ -7,6 +7,7 @@ O projeto vai desenvolver chatbot aplicando conceitos de integração. [^1]
 Dependências:
 
 - Node-telegram-bot-api
+- Dialogflow
 
 
 
