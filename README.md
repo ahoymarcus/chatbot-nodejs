@@ -8,6 +8,8 @@ Dependências:
 
 - Node-telegram-bot-api
 - Dialogflow
+- Youtube-node
+
 
 
 

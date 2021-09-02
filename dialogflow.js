@@ -13,7 +13,7 @@ const sessionClient = new dialogFlow.SessionsClient({
 });
 
 
-async function sendMassage(chatId, message) {
+async function sendMessage(chatId, message) {
 	const sessionPath = sessionClient.sessionPath(configs.project_id, chatId);
 	
 	const request = {
@@ -25,12 +25,24 @@ async function sendMassage(chatId, message) {
 			}
 		}
 	};
+	
+	const responses = await sessionClient.detectIntent(request);
+	const result = responses[0].queryResult;
+	
+	
+	//console.log(JSON.stringify(result, null, 2));
+	
+	return {
+		text: result.fulfillmentText,
+		intent: result.intent.displayName,
+		fields: result.parameters.fields
+	};
 };
 
 
+// Teste
+//sendMessage('12938123', 'oi');
 
-
-
-
+module.exports.sendMessage = sendMessage;
 
 
