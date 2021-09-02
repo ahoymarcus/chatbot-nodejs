@@ -1,6 +1,6 @@
 # Construindo um ChatbotFit no Telegram com JavaScript e NodeJS
 
-O projeto vai desenvolver chatbot aplicando conceitos de integração. [^1]
+O projeto vai desenvolver um chatbot aplicando conceitos de integração entre o Noje-JS, o Telegram e serviços da Google (Dialogflow e Youtube). [^1]
 
 <br />
 
